@@ -23,7 +23,7 @@ function storeInputData(event) {
     console.log(localStorage.getItem("feedback-form-state"));
 }
 
-// Jбробник події "submit" до форми
+// Oбробник події "submit" до форми
 feedbackForm.addEventListener("submit", submitInputData);
 // Функція для обробки відправки форми
 function submitInputData(event) {
